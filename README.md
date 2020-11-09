@@ -18,3 +18,8 @@
   this.password = password;
  }
  ```
+3. 第三部分
+
+利用桌面DeskTopGitHub clone到本地
+利用typora编辑
+https://www.typora.io/
