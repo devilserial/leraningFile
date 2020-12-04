@@ -42,3 +42,15 @@ SQLite是轻量级数据库，没有删除字段的功能，要想实现删除�
 ```
 
    
+
+```
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri uri = Uri.parse("http://m.youdao.com/dict?le=eng&q=" +                   holder.textViewEnglish.getText());
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(uri);
+                holder.itemView.getContext().startActivity(intent);
+            }
+        });
+```
