@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RemeberWords</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_title">添加单词</string>
+    <string name="add_confirm">确认</string>
+    <string name="menu_cleardata">清除数据</string>
+    <string name="menu_switchView">切换视图</string>
+    <string name="menu_confirm">确认</string>
+    <string name="menu_cancel">取消</string>
+</resources>
